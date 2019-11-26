@@ -107,7 +107,7 @@
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img"
           style="background-image: url('img/bg-showcase-water.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        <div class="col-lg-6 order-lg-1 my-auto pl-5 pr-5 showcase-text">
           <h2>Our Focus</h2>
           <p class="lead mb-0">We desire to assist organizations where construction is not the primary focus but a tool
             to support higher level
@@ -123,7 +123,7 @@
 
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-brick.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
+        <div class="col-lg-6 my-auto pl-5 pr-5 showcase-text">
           <h2>Who We Are</h2>
           <p class="lead mb-0">We are Aaron Ingebritson and Bryan Enslein, professional engineers with over 35 years of
             international infrastructure
