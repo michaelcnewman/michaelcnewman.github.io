@@ -50,14 +50,12 @@
     </div>
   </header>
 
-
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
     <div class="container">
       <div class="row">
 
-
-        <div class="col-lg-3">
+        <div class="col-md-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-note m-auto text-primary"></i>
@@ -67,7 +65,7 @@
               training.</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-chart m-auto text-primary"></i>
@@ -76,7 +74,7 @@
             <p class="lead mb-0">Oversight support, project audits, dashboards and reporting tools.</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-bubbles m-auto text-primary"></i>
@@ -85,7 +83,7 @@
             <p class="lead mb-0">Toolkits, organizational best practices, data services (GIS & management) training</p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-md-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-check m-auto text-primary"></i>
@@ -99,6 +97,7 @@
 
       </div>
     </div>
+
   </section>
 
   <!-- Image Showcases -->
@@ -136,6 +135,7 @@
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- Testimonials -->
@@ -173,6 +173,7 @@
 
       </div>
     </div>
+
   </section>
 
   <!-- Call to Action -->
@@ -198,9 +199,6 @@
       </div>
     </div>
   </section>
-
-
-
 
   <!-- Footer -->
   <footer class="footer bg-light">
