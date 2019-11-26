@@ -31,7 +31,7 @@
     <div class="container">
       <a class="navbar-brand" href="#"><img width="60" height="60" class="d-inline-block align-top" alt=""
           src="img/logo-blue.png"></a>
-      <a class="btn btn-primary" href="#">Contact Us</a>
+      <a class="btn btn-primary" href="mailto:benslein@globalbuildcollaborative.com">Contact Us</a>
     </div>
   </nav>
 
