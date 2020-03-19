@@ -9,9 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/wedges.css">
     <link rel="stylesheet" type="text/css" href="css/game.css">
 
-    <script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="scripts/gamescripts.js"></script>
-    <script type='text/javascript' src='dice-roller/d6.js'></script>
 </head>
 <body>
   <div id="window-container">
@@ -84,5 +81,10 @@
 
     </div>
   </div>
+
+  <script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="scripts/gamescripts.js"></script>
+  <script type='text/javascript' src='dice-roller/d6.js'></script>
+
 </body>
 </html>
