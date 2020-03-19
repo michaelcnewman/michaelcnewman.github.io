@@ -1,6 +1,7 @@
 html, body{
-    background-color: #800000;
+    background-color: #888888;
     margin: 0;
+    margin-top: -20px;
     padding: 0;
     height: 100%;
 }
@@ -22,10 +23,10 @@ html, body{
 }
 
 #game-container{
-    width: 1200px;
+    /*width: 1200px;
     height: 775px;
-    /*margin: auto;*/
-    padding-top: 20px;
+    margin: auto;
+    padding-top: 20px;*/
     background: #888888;
 
 }
@@ -37,6 +38,7 @@ html, body{
 
 #board-right {
     width: 70%;
+    height: 900px;
     float:right;
     text-align: center;
 }
