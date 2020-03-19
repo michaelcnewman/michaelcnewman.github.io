@@ -1,256 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Expendables Trivial Pursuit</title>
 
-<head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/gamepieces.css">
+    <link rel="stylesheet" type="text/css" href="css/wedges.css">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Landing Page - Start Bootstrap Theme</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-    type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/landing-page.css" rel="stylesheet">
-
+    <script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="scripts/gamescripts.js"></script>
+    <script type='text/javascript' src='dice-roller/d6.js'></script>
 </head>
-
 <body>
+  <div id="window-container">
+    <div id="game-container">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img width="60" height="60" class="d-inline-block align-top" alt=""
-          src="img/logo-blue.png"></a>
-      <a class="btn btn-primary" href="mailto:benslein@globalbuildcollaborative.com">Contact Us</a>
+        <div id="board-left">
+            <img id="logo" class="noselect" src="images/tpelogo.png" alt="" />
+
+            <br />
+
+            <table id="score-table">
+                <tr>
+                    <th>Teams</th>
+                    <th>
+                        <span id="w0" class="wedge wedge0" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w1" class="wedge wedge1" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w2" class="wedge wedge2" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w3" class="wedge wedge3" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w4" class="wedge wedge4" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w5" class="wedge wedge5" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                    </th>
+                </tr>
+                <tr><td style="color:cornflowerblue">Blue</td>  <td id="t0"></td></tr>
+                <tr><td style="color:darkorange">Orange</td>    <td id="t1"></td></tr>
+                <tr><td style="color:deeppink">Pink</td>        <td id="t2"></td></tr>
+                <tr><td style="color:green">Green</td>          <td id="t3"></td></tr>
+                <tr><td style="color:gold">Yellow</td>          <td id="t4"></td></tr>
+                <tr><td style="color:red">Red</td>              <td id="t5"></td></tr>
+            </table>
+
+            <br />
+
+            <table id="dice-table">
+                <tr>
+                    <td><script type="text/javascript">
+                        D6.setBaseUrl('dice-roller/');
+                        D6.dice(1);
+                        D6.setButtonLabel('Roll the dice!');
+                        $('.die').css('width', '50px');
+                        D6.roll();
+                    </script></td>
+                </tr>
+            </table>
+
+            <br />
+
+        </div>
+
+        <div id="board-right">
+            <img id="board" class="noselect" data-draggable="target" src="images/trivpur2.png" alt="" />
+
+            <table id="pieces-table">
+                <tr>
+                    <td><div id="p0" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:cornflowerblue"></div></td>
+                    <td><div id="p1" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:darkorange"></div></td>
+                    <td><div id="p2" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:deeppink"></div></td>
+                    <td><div id="p3" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:green"></div></td>
+                    <td><div id="p4" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:gold"></div></td>
+                    <td><div id="p5" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:red"></div></td>
+                </tr>
+            </table>
+
+            <!--<img id="p0" class="gamepiece" draggable="true" data-draggable="gp" src="images/p0.png" alt="" />
+            <img id="p1" class="gamepiece" draggable="true" data-draggable="gp" src="images/p1.png" alt="" />
+            <img id="p2" class="gamepiece" draggable="true" data-draggable="gp" src="images/p2.png" alt="" />
+            <img id="p3" class="gamepiece" draggable="true" data-draggable="gp" src="images/p3.png" alt="" />
+            <img id="p4" class="gamepiece" draggable="true" data-draggable="gp" src="images/p4.png" alt="" />
+            <img id="p5" class="gamepiece" draggable="true" data-draggable="gp" src="images/p5.png" alt="" />-->
+        </div>
+
     </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-1 mt-2">Global Build Collaborative</h1>
-          <h2 class="mb-2 mt-1">Infrastructure Experts for International Development</h2>
-          <p class="lead mb-2">Industry leaders in infrastructure project development, implementation
-            and monitoring.</p>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-3">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-note m-auto text-primary"></i>
-            </div>
-            <h3>Identify</h3>
-            <p class="lead mb-0">Project feasibility, process and project risk assessment. System and oversight
-              training.</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-chart m-auto text-primary"></i>
-            </div>
-            <h3>Validate</h3>
-            <p class="lead mb-0">Oversight support, project audits, dashboards and reporting tools.</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-bubbles m-auto text-primary"></i>
-            </div>
-            <h3>Communicate</h3>
-            <p class="lead mb-0">Toolkits, organizational best practices, data services (GIS & management) training</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
-            </div>
-            <h3>Solve</h3>
-            <p class="lead mb-0">Project development - SOW/proposals, cost evaluations, partnership,
-              contracting guidance</p>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Image Showcases -->
-  <section class="showcase">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-2 text-white showcase-img"
-          style="background-image: url('img/bg-showcase-water.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Our Focus</h2>
-          <p class="lead mb-0">We desire to assist organizations where construction is not the primary focus but a tool
-            to support higher level
-            outcomes. We recognize construction requires unique systems and controls to achieve strong results that may
-            not always
-            aligned to an organization’s expertise or structure. This is where we can help. Our goal is to be an
-            efficient and
-            integrated partner, working within your organization to help plan, establish systems, train staff and
-            support program
-            oversight and management of your programs’ infrastructure components.</p>
-        </div>
-      </div>
-
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-brick.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Who We Are</h2>
-          <p class="lead mb-0">We are Aaron Ingebritson and Bryan Enslein, professional engineers with over 35 years of
-            international infrastructure
-            experience. In 2013, Aaron led USAID’s Infrastructure Risk Assessment, a comprehensive investigation into
-            USAID’s
-            construction portfolio. Bryan served as a USAID Foreign Service Officer, responsible for implementing
-            multiple
-            infrastructure projects and executing USAID’s “Preferred Approach to Construction”.</p>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto mb-5">
-          <h1>Meet the Team</h1>
-          <p class="lead">Our experience has
-            taught us that
-            infrastructure successes are best achieved through a deliberate systems approach followed throughout the
-            lifetime of a
-            program.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/who-we-are-aaron.jpg" alt="">
-            <h5>Aaron Ingebritson P.E.</h5>
-            <p class="font-weight-light mb-0">Co-Founder</p>
-            <p class="font-weight-light mb-0"><a href="mailto:aingebritson@globalbuildcollaborative.com">Email Aaron</a>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/who-we-are-bryan.jpg" alt="">
-            <h5>Bryan Enslein P.E.</h5>
-            <p class="font-weight-light mb-0">Co-Founder</p>
-            <p class="font-weight-light mb-0"><a href="mailto:benslein@globalbuildcollaborative.com">Email Bryan</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Stay up to date with the GBC Newsletter!</h2>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Global Build Collaborative 2019. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+  </div>
 </body>
-
 </html>
