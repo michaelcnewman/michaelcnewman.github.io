@@ -107,19 +107,8 @@ input[type=button] {
     width: 200px;
     border-radius: 20px;
 }
+
 #diceall {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.default-game-board-left {
-  padding-top: 100px;
-}
-
-.default-game-board-right {
-  margin-top: 0px;
-}
-
-img.default-board {
-  width: 80%;
 }
