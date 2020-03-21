@@ -36,7 +36,7 @@
                 <tr><td style="color:deeppink">DougyFresh</td>        <td id="t2"></td></tr>
                 <tr><td style="color:green">Newmanator</td>          <td id="t3"></td></tr>
                 <tr><td style="color:gold">Selmont</td>          <td id="t4"></td></tr>
-                <tr><td style="color:red">Red</td>              <td id="t5"></td></tr>
+                <!-- <tr><td style="color:red">Red</td>              <td id="t5"></td></tr> -->
             </table>
 
             <br />
