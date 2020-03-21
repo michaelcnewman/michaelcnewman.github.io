@@ -62,7 +62,7 @@
 
             <table id="pieces-table">
                 <tr>
-                    <td><div id="p0" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:cornflowerblue;background-image: url(https://cdn.iconscout.com/icon/free/png-512/avatar-380-456332.png); background-repeat:no-repeat;background-position: center center; height: 60px; width: 60px; background-size: 50px 50px;"></div></td>
+                    <td><div id="p0" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:cornflowerblue;background-image: url(images/ed-icon.png); background-repeat:no-repeat;background-position: center center; height: 60px; width: 60px; background-size: 50px 50px;"></div></td>
                     <td><div id="p1" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:darkorange"></div></td>
                     <td><div id="p2" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:deeppink"></div></td>
                     <td><div id="p3" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:green"></div></td>
