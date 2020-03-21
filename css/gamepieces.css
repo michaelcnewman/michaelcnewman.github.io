@@ -7,8 +7,8 @@ img.gamepiece {
 }
 
 div.gamepiece {
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
     position: relative; left: 0; top: 0;
 	background: gray;
 	-moz-border-radius: 20px;
