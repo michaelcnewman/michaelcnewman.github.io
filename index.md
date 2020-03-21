@@ -64,7 +64,7 @@
                 <tr>
                     <td><div id="p0" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:cornflowerblue;background-image: url(images/ed-icon.png); background-repeat:no-repeat;background-position: center center; height: 60px; width: 60px; background-size: 70px 70px;"></div></td>
                     <td><div id="p1" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:darkorange"></div></td>
-                    <td><div id="p2" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:deeppink"></div></td>
+                    <td><div id="p2" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:deeppink;background-image: url(images/doug-icon.png); background-repeat:no-repeat;background-position: center center; height: 60px; width: 60px; background-size: 70px 70px;"></div></td>
                     <td><div id="p3" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:green;background-image: url(images/newman-icon.png); background-repeat:no-repeat;background-position: center center; height: 60px; width: 60px; background-size: 70px 70px;"></div></td>
                     <td><div id="p4" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:gold"></div></td>
                     <!-- <td><div id="p5" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:red"></div></td> -->
