@@ -13,7 +13,7 @@
     <p>
     <ol>
       <li>This game is meant to be played with friends via video chat. Have everyone join a google hangout or equivalent service.</li>
-      <li>Include one additional person on the call that will screen share the board in full screen mode.</li>
+      <li>Include one additional person on the call that will screen share the board in <strong>full screen mode</strong>.</li>
       <li>This person will act as the board manager and will move the pieces, roll the dice and assign pies.</li>
       <li>Atleast 2 players must have a set of trivial pursuit cards. If everyone has a set, the game is more fun.</li>
       <li>Edit player names and decide who goes first.</li>
