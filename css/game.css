@@ -1,7 +1,6 @@
 html, body{
     background-color: #888888;
     margin: 0;
-    margin-top: -20px;
     padding: 0;
     height: 100%;
 }
@@ -27,6 +26,7 @@ html, body{
     height: 775px;
     margin: auto;
     padding-top: 20px;*/
+    margin-top: 30px;
     background: #888888;
 
 }
@@ -38,9 +38,9 @@ html, body{
 
 #board-right {
     width: 70%;
-    height: 900px;
     float:right;
     text-align: center;
+    margin-top: -30px;
 }
 
 img#logo {
@@ -51,7 +51,7 @@ img#logo {
 }
 
 img#board {
-    width: 80%;
+    width: 88%;
     display: block;
     margin: 0 auto;
 }
