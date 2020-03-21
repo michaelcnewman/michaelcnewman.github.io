@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Expendables Trivial Pursuit</title>
+    <title>Trivial Pursuit: Covid Death Spiral Edition</title>
 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/gamepieces.css">
@@ -54,6 +54,7 @@
             </table>
 
             <br />
+            <a href="howtoplay.html">How to play</a>
 
         </div>
 
