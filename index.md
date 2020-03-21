@@ -28,14 +28,14 @@
                         <span id="w2" class="wedge wedge2" draggable="true" data-draggable="master-wedge">&#9660;</span>
                         <span id="w3" class="wedge wedge3" draggable="true" data-draggable="master-wedge">&#9660;</span>
                         <span id="w4" class="wedge wedge4" draggable="true" data-draggable="master-wedge">&#9660;</span>
-                        <span id="w5" class="wedge wedge5" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <!-- <span id="w5" class="wedge wedge5" draggable="true" data-draggable="master-wedge">&#9660;</span> -->
                     </th>
                 </tr>
                 <tr><td style="color:cornflowerblue">Bonesaw</td>  <td id="t0"></td></tr>
                 <tr><td style="color:darkorange">Sleiner</td>    <td id="t1"></td></tr>
                 <tr><td style="color:deeppink">DougyFresh</td>        <td id="t2"></td></tr>
                 <tr><td style="color:green">Newmanator</td>          <td id="t3"></td></tr>
-                <tr><td style="color:gold">Yellow</td>          <td id="t4"></td></tr>
+                <tr><td style="color:gold">Selmont</td>          <td id="t4"></td></tr>
                 <tr><td style="color:red">Red</td>              <td id="t5"></td></tr>
             </table>
 
