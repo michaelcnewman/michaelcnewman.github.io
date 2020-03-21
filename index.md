@@ -22,7 +22,6 @@
             <table id="score-table">
                 <tr>
                     <th>Teams</th>
-                    <th>Score</th>
                     <th>
                         <span id="w0" class="wedge wedge0" draggable="true" data-draggable="master-wedge">&#9660;</span>
                         <span id="w1" class="wedge wedge1" draggable="true" data-draggable="master-wedge">&#9660;</span>
@@ -32,12 +31,12 @@
                         <span id="w5" class="wedge wedge5" draggable="true" data-draggable="master-wedge">&#9660;</span>
                     </th>
                 </tr>
-                <tr><td style="color:cornflowerblue">Bonesaw</td><td>0</td>  <td id="t0"></td></tr>
-                <tr><td style="color:darkorange">Sleiner</td><td>3</td>    <td id="t1"></td></tr>
-                <tr><td style="color:deeppink">DougyFresh</td><td>1</td>        <td id="t2"></td></tr>
-                <tr><td style="color:green">Newmanator</td><td>0</td>          <td id="t3"></td></tr>
-                <tr><td style="color:gold">Selmont</td><td>0</td>          <td id="t4"></td></tr>
-                <!-- <tr><td style="color:red">Red</td>              <td id="t5"></td></tr> -->
+                <tr><td contenteditable="true" style="color:cornflowerblue">Player 1</td>  <td id="t0"></td></tr>
+                <tr><td contenteditable="true" style="color:darkorange">Player 2</td>    <td id="t1"></td></tr>
+                <tr><td contenteditable="true" style="color:deeppink">Player 3</td>       <td id="t2"></td></tr>
+                <tr><td contenteditable="true" style="color:green">Player 4</td>         <td id="t3"></td></tr>
+                <tr><td contenteditable="true" style="color:gold">Player 5</td>          <td id="t4"></td></tr>
+                <tr><td contenteditable="true" style="color:red">Player 6</td>              <td id="t5"></td></tr>
             </table>
 
             <br />
