@@ -54,7 +54,8 @@
             </table>
 
             <br />
-            <a href="howtoplay.html">How to play</a>
+            <a class="left-link" href="howtoplay.html">How to play</a><br/>
+            <a class="left-link" href="https://github.com/mb4828/trivialpursuit">Adapted From & Inspired By</a>
 
         </div>
 
