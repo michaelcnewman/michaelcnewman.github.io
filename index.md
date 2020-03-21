@@ -28,7 +28,7 @@
                         <span id="w2" class="wedge wedge2" draggable="true" data-draggable="master-wedge">&#9660;</span>
                         <span id="w3" class="wedge wedge3" draggable="true" data-draggable="master-wedge">&#9660;</span>
                         <span id="w4" class="wedge wedge4" draggable="true" data-draggable="master-wedge">&#9660;</span>
-                        <!-- <span id="w5" class="wedge wedge5" draggable="true" data-draggable="master-wedge">&#9660;</span> -->
+                        <span id="w5" class="wedge wedge5" draggable="true" data-draggable="master-wedge">&#9660;</span>
                     </th>
                 </tr>
                 <tr><td style="color:cornflowerblue">Bonesaw</td>  <td id="t0"></td></tr>
@@ -67,7 +67,7 @@
                     <td><div id="p2" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:deeppink"></div></td>
                     <td><div id="p3" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:green"></div></td>
                     <td><div id="p4" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:gold"></div></td>
-                    <td><div id="p5" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:red"></div></td>
+                    <!-- <td><div id="p5" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:red"></div></td> -->
                 </tr>
             </table>
 
