@@ -56,6 +56,15 @@
 
             <br />
 
+            <table id="card-table">
+                <tr><td style="background-color:#0000FF; color:#000;">Geography</td></tr>
+                <tr><td style="background-color:#FF75C3; color:#000;">Entertainment</td></tr>
+                <tr><td style="background-color:#FFFF00; color:#000;">History</td></tr>
+                <tr><td style="background-color:#92278F; color:#000;">Art & Literature</td></tr>
+                <tr><td style="background-color:#04C71F; color:#000;">Science & Nature</td></tr>
+                <tr><td style="background-color:#F26522; color:#000;">Sports & Leisure</td></tr>
+            </table>
+
         </div>
 
         <div id="board-right">
