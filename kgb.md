@@ -14,7 +14,7 @@
   <div id="window-container">
     <div id="game-container">
 
-        <div id="board-left">
+        <div id="board-left" style="padding-top: 40px;">
             <img id="logo" class="noselect" src="images/tpelogo.png" alt="" />
 
             <br />
