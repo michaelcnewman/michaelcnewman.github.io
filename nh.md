@@ -37,7 +37,7 @@
                 <tr><td style="color:deeppink">DougyFresh</td><td>1</td>        <td id="t2"></td></tr>
                 <tr><td style="color:green">Newmanator</td><td>0</td>          <td id="t3"></td></tr>
                 <tr><td style="color:gold">Selmont</td><td>0</td>          <td id="t4"></td></tr>
-                <!-- <tr><td style="color:red">Red</td>              <td id="t5"></td></tr> -->
+                <tr><td style="color:red">Chef T. Rex</td><td>0</td>               <td id="t5"></td></tr>
             </table>
 
             <br />
