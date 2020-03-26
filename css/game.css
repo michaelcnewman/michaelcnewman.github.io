@@ -71,6 +71,20 @@ table#score-table {
     background: white;
 }
 
+#card-table td, #card-table th {
+    border: 4px solid black;
+    padding: 10px 0px;
+    height: 22px;
+    font-weight: bold;
+    background: white;
+}
+
+table#card-table {
+    width: 92%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 table#dice-table {
     width: 92%;
     margin: 0 auto;
